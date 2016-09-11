@@ -27,6 +27,7 @@ Edit app/app.component.ts - see
 ![alt text](https://raw.githubusercontent.com/neilpennell/asyncTest/master/screencap/02%20-%20working%20code.png "screencap/02 - working code.png" )
 and uncomment line 5 to be 
 ![alt text](https://raw.githubusercontent.com/neilpennell/asyncTest/master/screencap/03%20-%20uncomment%20to%20break.png "screencap/03 - uncomment to break.png" )
+Save the file.
 
 
 ### Show the breakage
