@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import 'rxjs/Rx';
+import 'rxjs/add/observable/interval';
 
 
 @Component({
   selector: 'my-app',
-  template: `
-  	<h1>My First Angular 2 App</h1>
-	<p>Clock: {{clock|async}}</p>
-  `
+  templateUrl: 'app/app.component.html'
 })
 export class AppComponent { 
 	clock = Observable.interval(1000);
