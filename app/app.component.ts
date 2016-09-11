@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/interval';
 
-// import 'node_modules/neo4j-driver/lib/browser/neo4j-web.min.js';
+import 'node_modules/neo4j-driver/lib/browser/neo4j-web.min.js';
 
 
 
